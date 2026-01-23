@@ -15,7 +15,7 @@ public class CRUDOperation {
 
         String url = "jdbc:mysql://localhost:3306/demo_schema";
         String userName = "root";
-        String password = "Guru@1921";
+        String password = "root";
 
         Connection connection = DriverManager.getConnection(url, userName, password);
 
@@ -101,3 +101,4 @@ public class CRUDOperation {
         sc.close();
     }
 }
+
